@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background: #004413;
 }
+
 
 .navBar{
     display: flex;
@@ -30,6 +32,8 @@ ul{
     list-style: none;
     display: flex;
     gap: 20px;
+    padding-left: 0;
+
 }
 .imgNavbar{
     height: 10vw;
@@ -60,7 +64,7 @@ section{
 
     }
     .imgNavbar{
-        width: 50px;
+        height: 20vw;
     }
 
 }
