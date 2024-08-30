@@ -1,0 +1,56 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #004413;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background: white;
+
+    border: solid 1px red;
+    padding: 0 50px;
+}
+h1{
+    text-align: center;
+}
+
+h1,h2{
+    margin: 25px 0;
+}
+h1,h2, p, cite{
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.imgNavbar{
+    height: 100%;
+}
+.wrapNav{
+    text-decoration: none;
+    
+}
+
+section{
+    border: solid 1px green;
+    padding: 0 50px;
+}
+.card-text{
+    color: black;
+}
+.wrapCard{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    height: 900px;
+}
